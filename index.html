@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe </title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="navBar">
+        <div class="logo">
+            <h2>tic tac toe - play and enjoy</h2>
+        </div>
+    </nav>
+    <div class="main">
+    <div class="container">
+        <div class="box border-left border-top border-right"> <span class="boxIcon"></span> </div>
+        <div class="box border-top border-right"> <span class="boxIcon" ></span> </div>
+        <div class="box  border-top border-right "> <span class="boxIcon" ></span> </div>
+        <div class="box border-left border-top border-right"> <span class="boxIcon" ></span> </div>
+        <div class="box  border-top border-right"> <span class="boxIcon" ></span> </div>
+        <div class="box border-top border-right"> <span class="boxIcon" ></span> </div>
+        <div class="box  border-top border-left border-bottom border-right"> <span class="boxIcon" ></span> </div>
+        <div class="box border-top border-bottom border-right"> <span class="boxIcon" ></span> </div>
+        <div class="box border-top border-bottom border-right" > <span class="boxIcon" ></span> </div>
+    </div>
+
+<div class="menu">
+    <div class="menu-header"><h2><i class='bx bx-menu'></i>menu</h2></div>
+<div class="menu-header2">
+    <h2>enjoy the game</h2>
+</div>
+<div class="playerTurn">
+    <h2 id="turn-player"></h2>
+</div>
+
+
+
+</div>
+<div class="won-player  ">
+    <h2 id="wonh2">😍congratulation <span class="won-icon"><i class='bx bx-x'></i></span> you are win <img src="./song&gif/excited.gif" alt=""></h2>
+    <div class="reset-container">
+        <button id="resert">restart the game</button>
+    </div>
+</div>
+
+</div>
+</body>
+<script src="app.js"></script>
+</html>
